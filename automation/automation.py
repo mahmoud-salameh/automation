@@ -38,6 +38,7 @@ def emails(f):
     shutil.copy('assets/existing-contacts', 'assets/emails.txt.txt')
     return emails
 
+
 if __name__ == "__main__":
     print(phone_numbers("assets/potential-contacts.txt"))
     print(emails("assets/potential-contacts.txt"))
